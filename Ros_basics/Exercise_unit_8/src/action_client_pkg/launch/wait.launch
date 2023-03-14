@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Server for move_bb8_in_circle service -->
+    <node pkg="action_client_pkg" type="wait_for_result_test" name="drone_wait"  output="screen">
+    </node>
+</launch>
