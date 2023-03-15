@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Server for move_bb8_in_circle service -->
+    <node pkg="logs_test" type="logger_example" name="logger"  output="screen">
+    </node>
+</launch>
