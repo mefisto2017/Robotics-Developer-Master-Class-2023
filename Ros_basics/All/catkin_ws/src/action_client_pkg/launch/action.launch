@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Server for move_bb8_in_circle service -->
+    <node pkg="action_client_pkg" type="ardrone_action_client" name="drone"  output="screen">
+    </node>
+</launch>

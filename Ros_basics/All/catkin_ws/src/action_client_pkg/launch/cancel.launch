@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Server for move_bb8_in_circle service -->
+    <node pkg="action_client_pkg" type="cancel_goal_test" name="drone_cancel"  output="screen">
+    </node>
+</launch>

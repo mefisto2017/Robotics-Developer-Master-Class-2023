@@ -1,0 +1,9 @@
+<launch>
+
+  <node pkg ="service_client_pkg"
+        type="simple_service_client"
+        name="exercise51"
+        output="screen">
+  </node>
+
+</launch>
