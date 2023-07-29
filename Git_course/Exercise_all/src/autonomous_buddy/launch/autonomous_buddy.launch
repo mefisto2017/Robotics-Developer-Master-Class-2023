@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- launches keyboard teleoperation -->
+
+<launch>
+
+<node pkg="autonomous_buddy" name="teleop" type="teleop.py" output="screen"/>
+
+</launch>
