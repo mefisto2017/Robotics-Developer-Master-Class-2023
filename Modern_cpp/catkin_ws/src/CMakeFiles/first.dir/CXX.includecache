@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/catkin_ws/src/build_test/src/first.cpp
+first.hpp
+/home/user/catkin_ws/src/build_test/src/first.hpp
+iostream
+-
+
+/home/user/catkin_ws/src/build_test/src/first.hpp
+

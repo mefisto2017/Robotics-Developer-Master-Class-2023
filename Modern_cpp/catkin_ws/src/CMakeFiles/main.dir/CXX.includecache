@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/catkin_ws/src/build_test/src/first.hpp
+
+/home/user/catkin_ws/src/build_test/src/main.cpp
+first.hpp
+/home/user/catkin_ws/src/build_test/src/first.hpp
+
